@@ -21,7 +21,6 @@ public class Menu {
             System.out.println("| x - Sair ");
             System.out.print("|Escolha uma opção: ");
             opcaoSelecionada = input.next().toLowerCase(Locale.ROOT);
-//            System.out.println("Você escolheu a: " + opcaoSelecionada);
         }
         return opcaoSelecionada;
     }

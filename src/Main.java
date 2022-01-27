@@ -1,5 +1,3 @@
-import java.util.Locale;
-import java.util.Scanner;
 
 public class Main {
 
@@ -48,15 +46,13 @@ public class Main {
                     mock.getContas().get(1).imprimirInfosComuns();
                     opcaoEscolhida = menu.principal();
                     break;
-                case "x":
-                    System.out.println("Programa encerrado.");
-                    break;
                 default:
                     System.out.println("Opção Inválida");
                     opcaoEscolhida = menu.principal();
                     break;
             }
         }
+        System.out.println("Programa encerrado.");
     }
 
 }
